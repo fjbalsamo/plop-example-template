@@ -10,7 +10,10 @@ plop-example-template
 │   │   index.html.hbs
 │   │
 │   └───styles
-│       │   styles.css.hbs
+│   |   │   styles.css.hbs
+│   │
+│   └───scripts
+│       │   my-scrit.js
 ```
 
 ## My Code
