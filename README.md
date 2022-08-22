@@ -16,11 +16,11 @@ plop-example-template
 │       │   my-scrit.js
 ```
 
-## My Code
+## Put your Code
 
 Include all your code into template folder
 
-## Handle code's flow
+## Handle your code's flow
 
 using [handlebars helpers](https://handlebarsjs.com/guide/builtin-helpers.html), work in your code's flow
 
