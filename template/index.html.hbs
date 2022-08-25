@@ -48,7 +48,21 @@
       </div>
     {{/if}}
 
-    <h1 class="framework">\{{aVueOrAngulaVarible | width-a-filter}}</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>scaped values: </p>
+          <h6 class="framework">\{{aVueOrAngulaVarible | width-a-filter}}</h6>
+        </div>
+      </div>
+    </div>
+
+    {{#if racingLover}}
+      <h4 id="jmt">
+        "Hoy estoy tranquilo, pero ya se me va a pasar".-
+        <em>Juan M. Traverso</em>
+      </h4>
+    {{/if}}
 
     <script src="./scripts/my-script.js"></script>
   </body>

@@ -30,6 +30,12 @@ module.exports = function (plop) {
           }
         },
       },
+      {
+        type: "confirm",
+        name: "racingLover",
+        message: "Te gustan las Carreras?",
+        default: true,
+      },
     ],
     actions: (data) => {
       data.isBootstrap = data.cssLib == "bootstrap";
