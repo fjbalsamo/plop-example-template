@@ -1,5 +1,5 @@
 module.exports = function (plop) {
-  plop.setGenerator("tempalte", {
+  plop.setGenerator("template", {
     description: "this is a template example",
     prompts: [
       {
